@@ -16,10 +16,10 @@ export default function Footer() {
                                     group-hover:text-white";
 
     const menuLinks = [
-        { url: "/about", label: "Our Story" },
-        { url: "/blog", label: "Blog" },
-        { url: "/contact", label: "Contact" },
-    ];
+            { url: "/", label: "Home" },
+            { url: "/about", label: "About" },
+            { url: "/contact", label: "Contact" },
+        ];
 
     const socialLinks = [
         { url: "/#", label: <FacebookIcon className="" size={24} /> },
@@ -28,8 +28,8 @@ export default function Footer() {
     ];
 
     return (
-        <footer>
-            <div className="w-full min-h-screen px-5 flex items-center justify-center bg-gradient-to-t from-gray-400 to-gray-300">
+        <footer className="border-t border-gray-600">
+            <div className="w-full min-h-screen px-5 flex items-center justify-center bg-gradient-to-t from-gray-950 via-gray-900 to-gray-900">
                 <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
                     <div className="w-full text-7xl font-bold">
                         <p className="w-full">
