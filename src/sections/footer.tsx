@@ -61,8 +61,8 @@ export default function Footer() {
                             </div>
 
                             <div className="flex flex-row space-x-8 items-end md:items-center justify-between">
-                                {socialLinks.map((link) => (
-                                    <Link href={link.url} className="w-10 h-10 flex justify-center items-center text-white cursor-pointer">
+                                {socialLinks.map((link, index) => (
+                                    <Link key={index} href={link.url} className="w-10 h-10 flex justify-center items-center text-white cursor-pointer">
                                         <div className="flex w-10 h-10 justify-center items-center relative">
                                             <div className="w-[110%] h-[110%] shadow-lg shadow-pink-500 bg-transparent rounded-full absolute"/>                
                                             <div className="w-[108%] h-[108%] shadow-lg shadow-violet-500 bg-transparent rounded-full absolute rotate-90"/>
