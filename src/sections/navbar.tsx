@@ -17,12 +17,10 @@ export default function Navbar() {
 
 
   return (
-    <header className="w-full fixed top-2 left-0">
+    <header className="w-full fixed top-2 left-0 z-50">
 
       {/* Navbar Container */}
-      <div className="max-w-screen-md mx-auto h-12 px-1 flex justify-between items-center rounded-full shadow-sm shadow-gray-400 \
-        border-2 border-gray-300 
-        bg-gradient-to-b from-gray-200 via-gray-300 to-gray-200 text-gray-800">
+      <div className="max-w-screen-md mx-auto h-12 px-1 flex justify-between items-center rounded-full shadow-sm shadow-gray-400 border-2 border-gray-300 bg-gradient-to-b from-gray-200 via-gray-300 to-gray-200 text-gray-800">
 
         {/* Logo and Title Section */}
         <div className="flex w-full">

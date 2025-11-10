@@ -65,7 +65,7 @@ export function HeroSection() {
                   WebkitMaskComposite: "source-in",
                 }}
               >
-                <source src="/placeholder.mp4" type="video/mp4" />
+                <source src="/hero.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
