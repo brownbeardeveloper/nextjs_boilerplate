@@ -1,16 +1,16 @@
-import ContactForm from "@/components/contact";
+import ContactForm from "@/components/contact-form";
 import Image from "next/image";
 import exampleImage from "../../../public/example.png";
 
 export default function Index() {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="w-full ">
+      <div className="w-full">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-3">
             Get in Touch
           </h1>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-gray-700">
             Have a question or want to work together? Send us a message.
           </p>
         </div>
