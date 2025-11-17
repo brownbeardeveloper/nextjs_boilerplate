@@ -1,6 +1,6 @@
 # Next.js Boilerplate
 
-A minimal Next.js + Tailwind starter template.
+A simple Next.js + Tailwind starter template
 
 ## Features
 - Next.js App Router
@@ -8,8 +8,6 @@ A minimal Next.js + Tailwind starter template.
 - Pre-configured layout and basic components
 
 ## Demo
-
-This looks like this gif:
 
 ![Demo](public/version_1.1.gif)
 
