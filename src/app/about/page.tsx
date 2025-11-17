@@ -7,7 +7,7 @@ export default function AboutPage() {
       <main className="min-h-screen">
         {/* Hero Section */}
         <section
-          className="h-200 relative bg-cover bg-center bg-no-repeat flex items-center justify-center shadow-md shadow-gray-300"
+          className="h-150 relative bg-cover bg-center bg-no-repeat flex items-center justify-center shadow-md shadow-gray-300"
           style={{ backgroundImage: `url(${exampleImage.src})` }}>
           <div className="absolute inset-0 bg-black/30" />
           <div className="relative z-elevated text-center px-4">

@@ -32,8 +32,8 @@ export default function Navbar() {
 
             {/* Title */}
             <div className="flex items-center">
-              <span className="ml-5 text-md font-semibold tracking-wide uppercase text-gray-600 dark:text-white">
-                Lorem ipsum
+              <span className="ml-5 text-md font-permanentmarker tracking-wide uppercase text-gray-700">
+                Welcome to the website
               </span>
             </div>
           </Link>

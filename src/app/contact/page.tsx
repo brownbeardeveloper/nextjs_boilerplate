@@ -5,7 +5,7 @@ import exampleImage from "../../../public/example.png";
 export default function Index() {
   return (
     <main className="min-h-screen">
-      <div className="w-full">
+      <div className="w-full pt-40">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-3">
             Get in Touch
