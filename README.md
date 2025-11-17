@@ -13,8 +13,3 @@ A simple Next.js + Tailwind starter template
 
 ## License
 MIT — see the license file
-
-
-
-
-
